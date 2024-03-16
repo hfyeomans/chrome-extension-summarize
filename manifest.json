@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Claude-3 Webpage Summarizer",
+    "version": "1.0",
+    "description": "Summarizes the current webpage using Claude-3.",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "host_permissions": ["https://api.anthropic.com/v1/messages"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
