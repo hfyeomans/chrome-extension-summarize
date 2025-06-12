@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "Summarizes the current webpage using Claude-3.",
     "permissions": ["activeTab", "scripting", "storage"],
-    "host_permissions": ["https://api.anthropic.com/v1/messages"],
+    "host_permissions": ["https://api.anthropic.com/*"],
     "action": {
       "default_popup": "popup.html"
     },
