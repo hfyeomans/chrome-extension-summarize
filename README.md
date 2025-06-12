@@ -1,5 +1,5 @@
-Simple Chrome extension in manifest v3 that will use Claude-3 to summarize the current tab/webpage.
+Simple Chrome extension using Manifest V3 that leverages Claude-3 to summarize the current tab or webpage.
 
-You will need an Anthropic API key to use this extension. Take care that the API key is currently needed in background.js until I change it to make it pull from storage.
+You will need an Anthropic API key to use this extension. The key is currently hard coded in `background.js`, but future versions will read it from Chrome storage.
 
-background-debug.js is where my suggested and key debug statements were based on trouble I had making sure the contenet flowed throguh to the popup and there was readable page content.
+`background-debug.js` contains the debug statements I used while troubleshooting to ensure content flowed through to the popup and the page content was readable.
